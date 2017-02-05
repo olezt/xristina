@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Xristina's Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("buttonAbout").click(function(){
+					$("p").show(1000);
+				});
+			});
+		</script>
+    </head>
+    
+    <body>
+        <div align="middle">
+            <a href="#">
+				<img src="images/elephant.jpg" >
+            </a>
+		</div>
+        <div align="middle">
+            <button onclick="window.location.href='#'" style="border: none; background: none; cursor:pointer">Home</button>
+            <buttonAbout style="border: none; background: none; cursor:pointer">About me</buttonAbout>
+            <button onclick="window.location.href='illustrations.html'" style="border: none; background: none; cursor:pointer">Illustrations</button>
+        </div>
+        <div align="middle"><font face="Cursive"><p style="display: none">
+            My name is Xristina Lampri.<br>I am a Graphic Designer with a special interest in Fine Arts and Film Direction.<br>
+			This is my online portfolio.</p></font>
+            <table>
+				<tr>
+					<td><img src="images/blood.jpg" width="350"></td>
+					<td><img src="images/kolaz.jpg" width="350"></td>
+				</tr>
+			</table>       
+			<table>
+				<tr>
+					<td align="middle"><img src="images/letters.jpg" width="500"></td>
+				</tr>
+			</table>       
+        </div>
+    </body>
+</html>

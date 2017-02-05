@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+			#pic {
+				opacity:0.7;
+			}
+			#pic:hover {
+				opacity:1;
+				cursor:pointer;
+			}
+		</style>
+        <title>Xristina's Illustrations</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+		<script src="lightbox/js/jquery-1.11.0.min.js"></script>
+		<script src="lightbox/js/lightbox.min.js"></script>
+        <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+		<script>
+			$(document).ready(function(){
+				$("buttonAbout").click(function(){
+					$("p").show(1000);
+				});
+			});
+		</script>
+    </head>
+    
+    <body>
+        <div align="middle">
+            <a href="index.html">
+            <img src="images/elephant.jpg" >
+            </a>    
+		</div>
+        <div align="middle">
+            <button onclick="window.location.href='index.html'" style="border: none; background: none; cursor:pointer">Home</button>
+            <buttonAbout style="border: none; background: none; cursor:pointer">About me</buttonAbout>
+            <button onclick="window.location.href='#'" style="border: none; background: none; cursor:pointer">Illustrations</button>
+        </div>
+        <div align="middle"><font face="Cursive"><p style="display: none">
+            My name is Xristina Lampri.<br>I am a Graphic Designer with a special interest in Fine Arts and Film Direction.<br>
+			This is my online portfolio.</p></font>
+            <table>
+				<tr>
+					<td>
+						<a href="images/illustrations/1.jpg" data-lightbox="images">
+						<img id="pic" src="images/illustrations/1.jpg" width="350"></a>
+					</td>
+					<td>
+						<a href="images/illustrations/2.jpg" data-lightbox="images">
+						<img id="pic" src="images/illustrations/2.jpg" width="350"></a></td>
+          
+					<td>
+						<a href="images/illustrations/3.jpg" data-lightbox="images">
+						<img id="pic" src="images/illustrations/3.jpg" width="350"></a>
+					</td>
+				</tr>
+			</table>       
+			<table>
+				<tr>
+					<td>
+						<a href="images/illustrations/4.jpg" data-lightbox="images">
+						<img id="pic" src="images/illustrations/4.jpg" width="350"></a>
+					</td>
+					<td>
+						<a href="images/illustrations/5.jpg" data-lightbox="images">
+						<img id="pic" src="images/illustrations/5.jpg" width="350"></a>
+					</td>
+				</tr>
+			</table>   
+            <table>
+				<tr>
+					<td>
+						<a href="images/illustrations/6.jpg" data-lightbox="images">
+						<img id="pic" src="images/illustrations/6.jpg" width="350"></a>
+					</td>
+					<td>
+						<a href="images/illustrations/7.jpg" data-lightbox="images">
+						<img id="pic" src="images/illustrations/7.jpg" width="350"></a>
+					</td>
+					<td>
+						<a href="images/illustrations/8.jpg" data-lightbox="images">
+						<img id="pic" src="images/illustrations/8.jpg" width="350"></a>
+					</td>
+				</tr>
+			</table>  
+            <table>
+				<tr>
+					<td>
+						<a href="images/illustrations/9.jpg" data-lightbox="images">
+						<img id="pic" src="images/illustrations/9.jpg" width="350"></a>
+					</td>
+					<td>
+						<a href="images/illustrations/10.jpg" data-lightbox="images">
+						<img id="pic" src="images/illustrations/10.jpg" width="350"></a>
+					</td>
+				</tr>
+			</table>
+        </div>
+    </body>
+</html>
